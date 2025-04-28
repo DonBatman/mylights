@@ -3,7 +3,7 @@ minetest.register_node("mylights:ws_30", {
 	description = "Wall Sconce 30w",
 	tiles = {
 		"mylights_ws_top.png",
-		"mylights_ws_top.png",
+		"mylights_greybg.png",
 		"mylights_ws_right.png",
 		"mylights_ws_left.png",
 		"mylights_ws_front.png",
@@ -50,7 +50,7 @@ minetest.register_node("mylights:ws_60", {
 	description = "Wall Sconce 60w",
 	tiles = {
 		"mylights_ws_top.png",
-		"mylights_ws_top.png",
+		"mylights_greybg.png",
 		"mylights_ws_right.png",
 		"mylights_ws_left.png",
 		"mylights_ws_front.png",
@@ -97,7 +97,7 @@ minetest.register_node("mylights:ws_90", {
 	description = "Wall Sconce 90w",
 	tiles = {
 		"mylights_ws_top.png",
-		"mylights_ws_top.png",
+		"mylights_greybg.png",
 		"mylights_ws_right.png",
 		"mylights_ws_left.png",
 		"mylights_ws_front.png",
@@ -144,7 +144,7 @@ minetest.register_node("mylights:ws_120", {
 	description = "Wall Sconce 120w",
 	tiles = {
 		"mylights_ws_top.png",
-		"mylights_ws_top.png",
+		"mylights_greybg.png",
 		"mylights_ws_right.png",
 		"mylights_ws_left.png",
 		"mylights_ws_front.png",
