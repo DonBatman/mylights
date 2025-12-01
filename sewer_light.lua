@@ -1,4 +1,4 @@
-minetest.register_node("mylights:sewer_light_30", {
+core.register_node("mylights:sewer_light_30", {
 	description = "Sewer Light 30w",
 	tiles = {"mylights_sewer_light.png"},
 	drawtype = "nodebox",
@@ -17,7 +17,7 @@ minetest.register_node("mylights:sewer_light_30", {
 
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:sewer_light_30 5",
 		recipe = {
 			{'','wool:black',''},
@@ -25,7 +25,7 @@ minetest.register_craft({
 			{'','mylights:lightbulb30',''}
 			}
 })
-minetest.register_node("mylights:sewer_light_60", {
+core.register_node("mylights:sewer_light_60", {
 	description = "Sewer Light 60w",
 	tiles = {"mylights_sewer_light.png"},
 	drawtype = "nodebox",
@@ -44,7 +44,7 @@ minetest.register_node("mylights:sewer_light_60", {
 
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:sewer_light_60 5",
 		recipe = {
 			{'','wool:black',''},
@@ -52,7 +52,7 @@ minetest.register_craft({
 			{'','mylights:lightbulb60',''}
 			}
 })
-minetest.register_node("mylights:sewer_light_90", {
+core.register_node("mylights:sewer_light_90", {
 	description = "Sewer Light 90w",
 	tiles = {"mylights_sewer_light.png"},
 	drawtype = "nodebox",
@@ -71,7 +71,7 @@ minetest.register_node("mylights:sewer_light_90", {
 
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:sewer_light_90 5",
 		recipe = {
 			{'','wool:black',''},
@@ -79,7 +79,7 @@ minetest.register_craft({
 			{'','mylights:lightbulb90',''}
 			}
 })
-minetest.register_node("mylights:sewer_light_120", {
+core.register_node("mylights:sewer_light_120", {
 	description = "Sewer Light 120w",
 	tiles = {"mylights_sewer_light.png"},
 	drawtype = "nodebox",
@@ -98,7 +98,7 @@ minetest.register_node("mylights:sewer_light_120", {
 
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:sewer_light_120 5",
 		recipe = {
 			{'','wool:black',''},

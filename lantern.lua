@@ -1,5 +1,5 @@
 
-minetest.register_node("mylights:lantern_30", {
+core.register_node("mylights:lantern_30", {
 	description = "Lantern 30w",
 	tiles = {
 		"mylights_lanterntb.png",
@@ -29,7 +29,7 @@ minetest.register_node("mylights:lantern_30", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:lantern_30 1",
 		recipe = {
 			{'','wool:black',''},
@@ -37,7 +37,7 @@ minetest.register_craft({
 			{'','mylights:lightbulb30',''}
 			}
 })
-minetest.register_node("mylights:lantern_60", {
+core.register_node("mylights:lantern_60", {
 	description = "Lantern 60w",
 	tiles = {
 		"mylights_lanterntb.png",
@@ -67,7 +67,7 @@ minetest.register_node("mylights:lantern_60", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:lantern_60 1",
 		recipe = {
 			{'','wool:black',''},
@@ -76,7 +76,7 @@ minetest.register_craft({
 			}
 })
 
-minetest.register_node("mylights:lantern_90", {
+core.register_node("mylights:lantern_90", {
 	description = "Lantern 90w",
 	tiles = {
 		"mylights_lanterntb.png",
@@ -106,7 +106,7 @@ minetest.register_node("mylights:lantern_90", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:lantern_90 1",
 		recipe = {
 			{'','wool:black',''},
@@ -115,7 +115,7 @@ minetest.register_craft({
 			}
 })
 
-minetest.register_node("mylights:lantern_120", {
+core.register_node("mylights:lantern_120", {
 	description = "Lantern 120w",
 	tiles = {
 		"mylights_lanterntb.png",
@@ -145,7 +145,7 @@ minetest.register_node("mylights:lantern_120", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:lantern_120 1",
 		recipe = {
 			{'','wool:black',''},
@@ -154,7 +154,7 @@ minetest.register_craft({
 			}
 })
 -------------------------------------------------------------------------------------
-minetest.register_node("mylights:lantern_sm_30", {
+core.register_node("mylights:lantern_sm_30", {
 	description = "Lantern Small 30w",
 	paramtype = "light",
 	groups = {cracky = 1, cracky = 2},
@@ -190,7 +190,7 @@ minetest.register_node("mylights:lantern_sm_30", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:lantern_sm_30 1",
 		recipe = {
 			{'','wool:black',''},
@@ -199,7 +199,7 @@ minetest.register_craft({
 			}
 })
 
-minetest.register_node("mylights:lantern_sm_60", {
+core.register_node("mylights:lantern_sm_60", {
 	description = "Lantern Small 60w",
 	paramtype = "light",
 	groups = {cracky = 1, cracky = 2, not_in_creative_inventory=1},
@@ -235,7 +235,7 @@ minetest.register_node("mylights:lantern_sm_60", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:lantern_sm_60 1",
 		recipe = {
 			{'','wool:black',''},
@@ -243,7 +243,7 @@ minetest.register_craft({
 			{'','mylights:lightbulb60',''}
 			}
 })
-minetest.register_node("mylights:lantern_sm_90", {
+core.register_node("mylights:lantern_sm_90", {
 	description = "Lantern Small 90w",
 	paramtype = "light",
 	groups = {cracky = 1, cracky = 2, not_in_creative_inventory=1},
@@ -279,7 +279,7 @@ minetest.register_node("mylights:lantern_sm_90", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:lantern_sm_90 1",
 		recipe = {
 			{'','wool:black',''},
@@ -287,7 +287,7 @@ minetest.register_craft({
 			{'','mylights:lightbulb90',''}
 			}
 })
-minetest.register_node("mylights:lantern_sm_120", {
+core.register_node("mylights:lantern_sm_120", {
 	description = "Lantern Small 120w",
 	paramtype = "light",
 	groups = {cracky = 1, cracky = 2, not_in_creative_inventory=1},
@@ -323,7 +323,7 @@ minetest.register_node("mylights:lantern_sm_120", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:lantern_sm_120 1",
 		recipe = {
 			{'','wool:black',''},

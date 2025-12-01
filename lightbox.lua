@@ -13,7 +13,7 @@ for i in ipairs(light_list) do
 	local colour = light_list[i][2]
 
 
-minetest.register_node("mylights:lightbox30_"..colour, {
+core.register_node("mylights:lightbox30_"..colour, {
 	description = "30 Watt "..lightdesc,
 	tiles = {
 		"mylights_lightbox1_"..colour..".png",
@@ -51,7 +51,7 @@ minetest.register_node("mylights:lightbox30_"..colour, {
 })
 
 
-minetest.register_node("mylights:lightbox60_"..colour, {
+core.register_node("mylights:lightbox60_"..colour, {
 	description = "60 Watt "..lightdesc,
 	tiles = {
 		"mylights_lightbox1_"..colour..".png",
@@ -89,7 +89,7 @@ minetest.register_node("mylights:lightbox60_"..colour, {
 })
 
 
-minetest.register_node("mylights:lightbox90_"..colour, {
+core.register_node("mylights:lightbox90_"..colour, {
 	description = "90 Watt "..lightdesc,
 	tiles = {
 		"mylights_lightbox1_"..colour..".png",
@@ -129,7 +129,7 @@ minetest.register_node("mylights:lightbox90_"..colour, {
 --Craft
 
 
-minetest.register_node("mylights:lightbox120_"..colour, {
+core.register_node("mylights:lightbox120_"..colour, {
 	description = "120 Watt "..lightdesc,
 	tiles = {
 		"mylights_lightbox1_"..colour..".png",

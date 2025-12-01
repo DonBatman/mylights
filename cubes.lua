@@ -16,7 +16,7 @@ for i in ipairs(light_list) do
 
 
 --------------------------------------------------------------------------------
-minetest.register_node("mylights:light_cube_30_"..colour, {
+core.register_node("mylights:light_cube_30_"..colour, {
 	description = lightdesc.." 30 watt",
 	tiles = {"mylights_black_frame.png", "mylights_cube_"..colour..".png"},
 	drawtype = "glasslike_framed",
@@ -26,7 +26,7 @@ minetest.register_node("mylights:light_cube_30_"..colour, {
 
 })
 --------------------------------------------------------------------------------
-minetest.register_node("mylights:light_cube_60_"..colour, {
+core.register_node("mylights:light_cube_60_"..colour, {
 	description = lightdesc.." 60 watt",
 	tiles = {"mylights_black_frame.png", "mylights_cube_"..colour..".png"},
 	drawtype = "glasslike_framed",
@@ -36,7 +36,7 @@ minetest.register_node("mylights:light_cube_60_"..colour, {
 
 })
 --------------------------------------------------------------------------------
-minetest.register_node("mylights:light_cube_90_"..colour, {
+core.register_node("mylights:light_cube_90_"..colour, {
 	description = lightdesc.." 90 watt",
 	tiles = {"mylights_black_frame.png", "mylights_cube_"..colour..".png"},
 	drawtype = "glasslike_framed",
@@ -46,7 +46,7 @@ minetest.register_node("mylights:light_cube_90_"..colour, {
 
 })
 --------------------------------------------------------------------------------
-minetest.register_node("mylights:light_cube_120_"..colour, {
+core.register_node("mylights:light_cube_120_"..colour, {
 	description = lightdesc.." 120 watt",
 	tiles = {"mylights_black_frame.png", "mylights_cube_"..colour..".png"},
 	drawtype = "glasslike_framed",

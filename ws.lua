@@ -1,9 +1,9 @@
 --Wall Sconce 1
-minetest.register_node("mylights:ws_30", {
+core.register_node("mylights:ws_30", {
 	description = "Wall Sconce 30w",
 	tiles = {
 		"mylights_ws_top.png",
-		"mylights_greybg.png",
+		"mylights_ws_top.png",
 		"mylights_ws_right.png",
 		"mylights_ws_left.png",
 		"mylights_ws_front.png",
@@ -38,7 +38,7 @@ minetest.register_node("mylights:ws_30", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws_30 2",
 		recipe = {
 			{'','mylights:lightbulb30',''},
@@ -46,11 +46,11 @@ minetest.register_craft({
 			{'','','default:steel_ingot'}
 			}
 })
-minetest.register_node("mylights:ws_60", {
+core.register_node("mylights:ws_60", {
 	description = "Wall Sconce 60w",
 	tiles = {
 		"mylights_ws_top.png",
-		"mylights_greybg.png",
+		"mylights_ws_top.png",
 		"mylights_ws_right.png",
 		"mylights_ws_left.png",
 		"mylights_ws_front.png",
@@ -85,7 +85,7 @@ minetest.register_node("mylights:ws_60", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws_60 2",
 		recipe = {
 			{'','mylights:lightbulb60',''},
@@ -93,11 +93,11 @@ minetest.register_craft({
 			{'','','default:steel_ingot'}
 			}
 })
-minetest.register_node("mylights:ws_90", {
+core.register_node("mylights:ws_90", {
 	description = "Wall Sconce 90w",
 	tiles = {
 		"mylights_ws_top.png",
-		"mylights_greybg.png",
+		"mylights_ws_top.png",
 		"mylights_ws_right.png",
 		"mylights_ws_left.png",
 		"mylights_ws_front.png",
@@ -132,7 +132,7 @@ minetest.register_node("mylights:ws_90", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws_90 2",
 		recipe = {
 			{'','mylights:lightbulb90',''},
@@ -140,11 +140,11 @@ minetest.register_craft({
 			{'','','default:steel_ingot'}
 			}
 })
-minetest.register_node("mylights:ws_120", {
+core.register_node("mylights:ws_120", {
 	description = "Wall Sconce 120w",
 	tiles = {
 		"mylights_ws_top.png",
-		"mylights_greybg.png",
+		"mylights_ws_top.png",
 		"mylights_ws_right.png",
 		"mylights_ws_left.png",
 		"mylights_ws_front.png",
@@ -179,7 +179,7 @@ minetest.register_node("mylights:ws_120", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws_120 2",
 		recipe = {
 			{'','mylights:lightbulb120',''},
@@ -189,7 +189,7 @@ minetest.register_craft({
 })
 
 --Wall Sconce 2
-minetest.register_node("mylights:ws2_30", {
+core.register_node("mylights:ws2_30", {
 	description = "Wall Sconce 2 30w",
 	tiles = {
 		"mylights_ws2_sides.png^[transformR90",
@@ -213,7 +213,7 @@ minetest.register_node("mylights:ws2_30", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws2_30 2",
 		recipe = {
 			{'','mylights:lightbulb30',''},
@@ -221,7 +221,7 @@ minetest.register_craft({
 			{'','','default:tin_ingot'}
 			}
 })
-minetest.register_node("mylights:ws2_60", {
+core.register_node("mylights:ws2_60", {
 	description = "Wall Sconce 2 60w",
 	tiles = {
 		"mylights_ws2_sides.png^[transformR90",
@@ -245,7 +245,7 @@ minetest.register_node("mylights:ws2_60", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws2_60 2",
 		recipe = {
 			{'','mylights:lightbulb60',''},
@@ -253,7 +253,7 @@ minetest.register_craft({
 			{'','','default:tin_ingot'}
 			}
 })
-minetest.register_node("mylights:ws2_90", {
+core.register_node("mylights:ws2_90", {
 	description = "Wall Sconce 2 90w",
 	tiles = {
 		"mylights_ws2_sides.png^[transformR90",
@@ -277,7 +277,7 @@ minetest.register_node("mylights:ws2_90", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws2_90 2",
 		recipe = {
 			{'','mylights:lightbulb90',''},
@@ -285,7 +285,7 @@ minetest.register_craft({
 			{'','','default:tin_ingot'}
 			}
 })
-minetest.register_node("mylights:ws2_120", {
+core.register_node("mylights:ws2_120", {
 	description = "Wall Sconce 2 120w",
 	tiles = {
 		"mylights_ws2_sides.png^[transformR90",
@@ -309,7 +309,7 @@ minetest.register_node("mylights:ws2_120", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws2_120 2",
 		recipe = {
 			{'','mylights:lightbulb120',''},
@@ -320,7 +320,7 @@ minetest.register_craft({
 
 
 --Wall Sconce 3
-minetest.register_node("mylights:ws3_30", {
+core.register_node("mylights:ws3_30", {
 	description = "Wall Sconce 3 30w",
 	tiles = {
 		"mylights_ws2_sides.png^[transformR90",
@@ -344,7 +344,7 @@ minetest.register_node("mylights:ws3_30", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws3_30 2",
 		recipe = {
 			{'','mylights:lightbulb30',''},
@@ -352,7 +352,7 @@ minetest.register_craft({
 			{'','','default:tin_ingot'}
 			}
 })
-minetest.register_node("mylights:ws3_60", {
+core.register_node("mylights:ws3_60", {
 	description = "Wall Sconce 3 60w",
 	tiles = {
 		"mylights_ws2_sides.png^[transformR90",
@@ -376,7 +376,7 @@ minetest.register_node("mylights:ws3_60", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws3_60 2",
 		recipe = {
 			{'','mylights:lightbulb60',''},
@@ -384,7 +384,7 @@ minetest.register_craft({
 			{'','','default:tin_ingot'}
 			}
 })
-minetest.register_node("mylights:ws3_90", {
+core.register_node("mylights:ws3_90", {
 	description = "Wall Sconce 3 90w",
 	tiles = {
 		"mylights_ws2_sides.png^[transformR90",
@@ -408,7 +408,7 @@ minetest.register_node("mylights:ws3_90", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws3_90 2",
 		recipe = {
 			{'','mylights:lightbulb90',''},
@@ -416,7 +416,7 @@ minetest.register_craft({
 			{'','','default:tin_ingot'}
 			}
 })
-minetest.register_node("mylights:ws3_120", {
+core.register_node("mylights:ws3_120", {
 	description = "Wall Sconce 3 120w",
 	tiles = {
 		"mylights_ws2_sides.png^[transformR90",
@@ -440,7 +440,7 @@ minetest.register_node("mylights:ws3_120", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws3_120 2",
 		recipe = {
 			{'','mylights:lightbulb120',''},
@@ -452,7 +452,7 @@ minetest.register_craft({
 
 
 --Wall Sconce 4
-minetest.register_node("mylights:ws4_30", {
+core.register_node("mylights:ws4_30", {
 	description = "Wall Sconce 4 30w",
 	tiles = {
 		"mylights_ws4_top.png",
@@ -479,7 +479,7 @@ minetest.register_node("mylights:ws4_30", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws4_30 2",
 		recipe = {
 			{'','mylights:lightbulb30',''},
@@ -487,7 +487,7 @@ minetest.register_craft({
 			{'','','default:steel_ingot'}
 			}
 })
-minetest.register_node("mylights:ws4_60", {
+core.register_node("mylights:ws4_60", {
 	description = "Wall Sconce 4 60w",
 	tiles = {
 		"mylights_ws4_top.png",
@@ -514,7 +514,7 @@ minetest.register_node("mylights:ws4_60", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws4_60 2",
 		recipe = {
 			{'','mylights:lightbulb60',''},
@@ -522,7 +522,7 @@ minetest.register_craft({
 			{'','','default:steel_ingot'}
 			}
 })
-minetest.register_node("mylights:ws4_90", {
+core.register_node("mylights:ws4_90", {
 	description = "Wall Sconce 4 90w",
 	tiles = {
 		"mylights_ws4_top.png",
@@ -549,7 +549,7 @@ minetest.register_node("mylights:ws4_90", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws4_90 2",
 		recipe = {
 			{'','mylights:lightbulb90',''},
@@ -557,7 +557,7 @@ minetest.register_craft({
 			{'','','default:steel_ingot'}
 			}
 })
-minetest.register_node("mylights:ws4_120", {
+core.register_node("mylights:ws4_120", {
 	description = "Wall Sconce 4 120w",
 	tiles = {
 		"mylights_ws4_top.png",
@@ -584,7 +584,7 @@ minetest.register_node("mylights:ws4_120", {
 	}
 })
 --craft
-minetest.register_craft({
+core.register_craft({
 		output = "mylights:ws4_120 2",
 		recipe = {
 			{'','mylights:lightbulb120',''},
